@@ -10,7 +10,7 @@ function Todoapp() {
   const storedata = () => {
     if (!Data) {
     } else {
-      setSaveitems([...Saveitems, Data]);
+      setSaveitems([...nnSaveitems, Data]);
       setData("");
     }
   };
